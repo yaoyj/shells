@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "hello bash!"
+
+#echo "Please input first number:"
+#read x
+#echo "Please input second number:"
+#read y
+
+read -p "Please input first number:" x
+read -p "Please input second number:" y
+
+echo "SUM is $[$x+$y]"
